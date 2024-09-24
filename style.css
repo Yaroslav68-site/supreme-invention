@@ -1,0 +1,479 @@
+@font-face {
+    font-family: "JejuHallasan-Regular";
+    src: url(../fonts/JejuHallasan-Regular.ttf);
+}
+
+@font-face {
+    font-family: "arial";
+    src: url(../fonts/arialmt.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    overflow-x:hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.main2{
+    font-family: "JejuHallasan-Regular";
+}
+
+.main{
+    background: linear-gradient(to left, #00FFB2 15%, #96C820);
+    opacity: 0.5;
+    max-width: 2048px;
+    max-height: 105px;
+    border-bottom-right-radius: 49px;
+    border-bottom-left-radius: 49px;
+}
+
+.nav{
+    font-family: "JejuHallasan-Regular";
+    font-weight: 400;
+    float: right;
+    width: 50%;
+}
+
+.hero{
+    background-color: #FFF6F1;
+    height: 348px;
+    padding-bottom: 55px;
+    margin-top: 78px;
+}
+
+.hero__info{
+    font-family: JejuHallasan-Regular;
+    font-size: 20px;
+    font-weight: 900;
+    position: relative;
+    left
+}
+
+.info{
+    position: relative;
+    left: 75px;
+    top: 70px;
+}
+
+ul{
+    padding-right: 100px;
+    padding-top: 48px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.woman{
+    position: relative;
+    left: 1145px;
+    bottom: 184px;
+}
+
+.btn{
+    display: table;
+    position: relative;
+    top: 100px;
+    left: 641px;
+    background: linear-gradient(to left, #00FFB2 15%, #96C820);
+    opacity: 0.5;
+    font-size: 16px;
+    font-weight: 900;
+    border-radius: 119px;
+    padding: 18px 52px;
+    text-decoration: none;
+}
+.but{
+    color: #FFF;
+    font-family: JejuHallasan-Regular;
+}
+
+.info__main2{
+    position: relative;
+    top: 250px;
+    left: 683px;
+}
+
+.bg__info{
+    position: relative;
+    top: 15px;
+    left: 30px;
+    font-size: 28px;
+}
+
+.bg__logo{
+    color: #A69D4F;
+    font-size: 40px;
+    position: relative;
+    left: 30px;
+}
+
+
+.photo2{
+    position: relative;
+    top: 500px;
+}
+
+.sum{
+    font-size: 24px;
+    position: relative;
+    top: 75px;
+    left: 45px;
+}
+
+.bg__info2{
+    position: relative;
+    bottom: 30px;
+    font-size: 28px;
+
+}
+
+.bg__logo-info2{
+    position: relative;
+    bottom: 899px;
+    left: 550px;
+}
+
+.bg__logo2{
+    color: #A69D4F;
+    font-size: 40px;
+    position: relative;
+    bottom: 30px;
+}
+
+.photo23{
+    position: relative;
+    bottom: 415px;
+    left: 520px;
+}
+
+.sum2{
+    font-size: 24px;
+    position: relative;
+    top: 15px;
+    left: 45px;
+}
+
+.bg__info3{
+    position: relative;
+    bottom: 30px;
+    font-size: 28px;
+
+}
+
+.bg__logo-info3{
+    position: relative;
+    bottom: 1900px;
+    left: 1080px;
+}
+
+.bg__logo3{
+    color: #A69D4F;
+    font-size: 40px;
+    position: relative;
+    bottom: 30px;
+}
+
+.photo4{
+    position: relative;
+    bottom: 1415px;
+    left: 1035px;
+}
+
+.sum3{
+    font-size: 24px;
+    position: relative;
+    top: 75px;
+    left: 45px;
+}
+
+.bg__info4{
+    position: relative;
+    top: 15px;
+    left: 30px;
+    font-size: 28px;
+}
+
+.bg__logo-info4{
+    position: relative;
+    bottom: 2300px;
+}
+
+.bg__logo4{
+    color: #A69D4F;
+    font-size: 40px;
+    position: relative;
+    left: 30px;
+}
+
+
+.photo5{
+    position: relative;
+    top: -1800px;
+}
+
+.sum4{
+    font-size: 24px;
+    position: relative;
+    top: 75px;
+    left: 45px;
+}
+
+.bg__info5{
+    position: relative;
+    bottom: 2327px;
+    font-size: 28px;
+}
+
+.bg__logo-info5{
+    position: relative;
+    bottom: 2300px;
+}
+
+.bg__logo-info5{
+    position: relative;
+    bottom: 899px;
+    left: 550px;
+}
+
+.bg__logo5{
+    color: #A69D4F;
+    font-size: 40px;
+    position: relative;
+    bottom: 2330px;
+}
+
+.photo51{
+    position: relative;
+    bottom: 2715px;
+    left: 520px;
+}
+
+.sum5{
+    font-size: 24px;
+    position: relative;
+    top: 15px;
+    left: 45px;
+}
+
+.bg__info6{
+    position: relative;
+    bottom: 30px;
+    font-size: 28px;
+
+}
+
+.bg__logo-info6{
+    position: relative;
+    bottom: 4200px;
+    left: 1080px;
+}
+
+.bg__logo6{
+    color: #A69D4F;
+    font-size: 40px;
+    position: relative;
+    bottom: 30px;
+}
+
+.photo8{
+    position: relative;
+    bottom: 3717px;
+    left: 1035px;
+}
+
+.sum6{
+    font-size: 24px;
+    position: relative;
+    top: 75px;
+    left: 45px;
+}
+
+.main{
+    font-family: "arialmt";
+}
+
+.info__main3{
+    position: relative;
+    bottom: 3800px;
+    left: 500px;
+}
+
+.bg7{
+    position: relative;
+    bottom: 3700px;
+}
+
+.man{
+    position: relative;
+    bottom: 4700px;
+    left: 50px;
+}
+
+.info__bg3{
+    font-size: 36px;
+    position: relative;
+    bottom: 5087px;
+    left: 500px;
+}
+
+.text__l{
+    font-size: 40px;
+    position: relative;
+    bottom: 5000px;
+    left: 500px;
+}
+
+.wonam{
+    position: relative;
+    bottom: 4800px;
+    left: 50px;
+}
+
+.text__p{
+    position: relative;
+    bottom: 110px;
+}
+
+.zag{
+    position: relative;
+    font-size: 26px;
+    bottom: 4660px;
+    left: 650px;
+}
+
+.podzag{
+    position: relative;
+    font-size: 25px;
+    bottom: 4500px;
+    left: 250px;
+}
+
+.podzag2{
+    position: relative;
+    font-size: 25px;
+    bottom: 4525px;
+    left: 950px;
+}
+
+.bgprem{
+    position: relative;
+    bottom: 4500px;
+    left: 100px;
+}
+
+.text1{
+    font-size: 26px;
+    position: relative;
+    bottom: 450px;
+    left: 50px;
+    line-height: 2;
+}
+
+.bgprem1{
+    position: relative;
+    bottom: 5367px;
+    left: 850px;
+}
+
+.text2{
+    font-size: 26px;
+    position: relative;
+    bottom: 450px;
+    left: 50px;
+    line-height: 2;
+}
+
+.otzivy{
+    position: relative;
+    bottom: 5500px;
+    left: 700px;
+}
+
+.otziv1{
+    position: relative;
+    bottom: 5300px;
+    left: 50px;}
+
+.otziv2{
+    position: relative;
+    bottom: 5450px;
+    left: 900px;
+}
+
+.otziv3{
+    position: relative;
+    bottom: 5400px;
+    left: 50px;
+}
+
+.otziv4{
+    position: relative;
+    bottom: 5550px;
+    left: 900px;
+}
+
+.name{
+    position: relative;
+    width: 326px;
+    height: 50px;
+}
+
+.otz{
+    color: #fff;
+    font-size: 26px;
+    background-color: #697EF4;
+    border-radius: 84px;
+    width: 200px;
+    height: 50px;
+}
+
+.otziv{
+    position: relative;
+    bottom: 5500px;
+    left: 500px;
+}
+
+.onas2{
+    position: relative;
+    bottom: 5300px;
+    left: 700px;
+}
+
+.onas{
+    position: relative;
+    bottom: 5200px;    
+}
+
+.photo0{
+    position: relative;
+    bottom: 5000px;
+}
+
+.email{
+    position: relative;
+    bottom: 5500px;
+    height: 50px;
+    left: 1000px;
+    width: 250px;
+}
+
+.ras{
+    position: relative;
+    bottom: 5400px;
+    left: 800px;
+}
